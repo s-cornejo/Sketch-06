@@ -8,16 +8,18 @@ $(document).ready(function() {
 
     $("button").click(function() {
         $(".noun").each(function() {
-            var randomIndex = Math.floor(Math.random() * nounArr.length);
-            $(this).text(nounArr[randomIndex]);
+            var nounRand = Math.floor(Math.random() * nounArr.length);
+            $(this).text(nounArr[nounRand]);
         });
 
         $(".verb").click(function() {
-            $(this).text(verbArr[randomIndex]);
+            var verbRand = Math.floor(Math.random() * verbArr.length);
+            $(this).text(verbArr[verbRand]);
         });
 
         $(".adj").click(function() {
-            $(this).text(adjArr[randomIndex]);
+            var adjRand = Math.floor(Math.random() * adjArr.length);
+            $(this).text(adjArr[adjRand]);
         });
         
     });
