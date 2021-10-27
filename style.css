@@ -4,17 +4,17 @@ div {
 }
 
 .noun {
-    color: purple;
+    color: rgb(112, 3, 112);
 }
 
 .verb {
-    color: blue;
+    color: rgb(0, 0, 150);
 }
 
 .adj {
-    color: red;
+    color: rgb(134, 0, 0);
 }
 
 .place {
-    color: palevioletred;
+    color: rgb(32, 87, 32);
 }
