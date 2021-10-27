@@ -12,12 +12,12 @@ $(document).ready(function() {
             $(this).text(nounArr[nounRand]);
         });
 
-        $(".verb").click(function() {
+        $(".verb").each(function() {
             var verbRand = Math.floor(Math.random() * verbArr.length);
             $(this).text(verbArr[verbRand]);
         });
 
-        $(".adj").click(function() {
+        $(".adj").each(function() {
             var adjRand = Math.floor(Math.random() * adjArr.length);
             $(this).text(adjArr[adjRand]);
         });
