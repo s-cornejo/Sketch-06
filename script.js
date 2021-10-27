@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     var verbArr = ["run", "cough", "fall", "sit", "drink"];
 
-    var adjArr = ["beautiful", "slimy", "hard", "funny", "boring"];
+    var adjArr = ["beautiful", "slimy", "trash", "hilarious", "boring"];
 
     $("button").click(function() {
         $(".noun").each(function() {
