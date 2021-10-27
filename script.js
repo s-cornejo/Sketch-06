@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     var adjArr = ["beautiful", "slimy", "trash", "hilarious", "boring"];
 
-    var placeArr = ["Saturn", "Mickey Ds", "Austin, Texas"];
+    var placeArr = ["Saturn", "Mickey Ds", "Austin, Texas", "Taco Bell"];
 
     $("button").click(function() {
         $(".noun").each(function() {
