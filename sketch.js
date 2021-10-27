@@ -7,7 +7,7 @@ function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
     canvas.position(0, 0);
     canvas.style('z-index', '-1');
-    background(230); 
+    background(250); 
 } 
   
   var r = 0;
@@ -16,8 +16,8 @@ function setup() {
   let firstClick = false;
   
 function draw() {
-    let xWinMid = (windowWidth / 2);
-    let yWinMid = (windowHeight / 2);
+    let xWinMid = (0);
+    let yWinMid = (0);
     
     if (firstClick == false) {
       var xVar = xWinMid;
