@@ -46,3 +46,7 @@ function mouseClicked() {
       mouseIsPressed = true;     
     }   
 }
+
+function keyPressed() {
+    clear();
+}
