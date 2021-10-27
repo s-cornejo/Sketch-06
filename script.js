@@ -12,15 +12,28 @@ $(document).ready(function() {
             $(this).text(nounArr[nounRand]);
         });
 
+        // $(".verb").each(function() {
+        //     var verbRand = Math.floor(Math.random() * verbArr.length);
+        //     $(this).text(verbArr[verbRand]);
+        // });
+
+        // $(".adj").each(function() {
+        //     var adjRand = Math.floor(Math.random() * adjArr.length);
+        //     $(this).text(adjArr[adjRand]);
+        // });   
+    });
+
+    $("button").click(function() {
         $(".verb").each(function() {
             var verbRand = Math.floor(Math.random() * verbArr.length);
             $(this).text(verbArr[verbRand]);
         });
+    });
 
+    $("button").click(function() {
         $(".adj").each(function() {
             var adjRand = Math.floor(Math.random() * adjArr.length);
             $(this).text(adjArr[adjRand]);
-        });
-        
+        });  
     });
 });
