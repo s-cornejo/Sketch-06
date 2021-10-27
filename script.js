@@ -30,7 +30,7 @@ $(document).ready(function() {
     });
 
     $("button").click(function() {
-        $(".verb").each(function() {
+        $(".place").each(function() {
             var placeRand = Math.floor(Math.random() * placeArr.length);
             $(this).text(placeArr[placeRand]);
         });
