@@ -1,0 +1,16 @@
+div {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.noun {
+    color: green;
+}
+
+.verb {
+    color: blue;
+}
+
+.adj {
+    color: red;
+}
